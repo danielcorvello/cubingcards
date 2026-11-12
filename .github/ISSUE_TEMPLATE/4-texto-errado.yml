@@ -1,0 +1,26 @@
+name: Texto errado
+description: Erro de português, explicação confusa ou informação errada num texto do site.
+title: "[Texto] "
+labels: ["texto"]
+body:
+  - type: input
+    id: endereco
+    attributes:
+      label: Endereço da página
+      description: Copie da barra do navegador.
+      placeholder: https://cubingcards.com.br/3x3/pll/t
+    validations:
+      required: true
+  - type: textarea
+    id: trecho
+    attributes:
+      label: Trecho com problema
+      description: Copie o trecho do site.
+    validations:
+      required: true
+  - type: textarea
+    id: correcao
+    attributes:
+      label: Como deveria ficar
+    validations:
+      required: true

@@ -1,0 +1,1 @@
+import{o as e,t}from"./jsx-runtime-55bXdl7L.js";import{c as n}from"./site-AlQpEgTW.js";import{n as r,t as i}from"./PaginaDoTreino-vDnFy2C3.js";var a=n(),o=t();function s({loaderData:e,location:t}){return r(e,t.pathname)}var c=e(function(e){let t=(0,a.c)(2),{loaderData:n}=e,r;return t[0]===n?r=t[1]:(r=(0,o.jsx)(i,{dados:n}),t[0]=n,t[1]=r),r});export{c as default,s as meta};

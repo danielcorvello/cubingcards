@@ -1,0 +1,17 @@
+name: Ideia para o site
+description: Uma página, um treino, um jeito de imprimir ou outra melhoria.
+title: "[Ideia] "
+labels: ["ideia"]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: A ideia
+      description: O que você gostaria de fazer no site e por quê.
+    validations:
+      required: true
+  - type: input
+    id: endereco
+    attributes:
+      label: Página relacionada (se tiver)
+      placeholder: https://cubingcards.com.br/3x3/treino

@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-55bXdl7L.js";import{c as t}from"./site-AlQpEgTW.js";var n=t(),r={pagina:`_pagina_1ivtu_1`,estreita:`_estreita_1ivtu_3`},i=e();function a(e){let t=(0,n.c)(3),{estreita:a,children:o}=e,s=a!==void 0&&a?r.estreita:r.pagina,c;return t[0]!==o||t[1]!==s?(c=(0,i.jsx)(`main`,{className:s,children:o}),t[0]=o,t[1]=s,t[2]=c):c=t[2],c}export{a as t};

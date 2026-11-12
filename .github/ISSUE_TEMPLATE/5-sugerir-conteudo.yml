@@ -1,0 +1,37 @@
+name: Sugerir conteúdo
+description: Um caso, grupo, método, explicação ou cubo que ainda não está no site.
+title: "[Conteúdo] "
+labels: ["sugerir-conteudo"]
+body:
+  - type: dropdown
+    id: cubo
+    attributes:
+      label: Cubo
+      options:
+        - 3x3
+        - 2x2
+        - 4x4
+        - 5x5
+        - Megaminx
+        - Pyraminx
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: O que falta
+      options:
+        - Um caso ou grupo de casos
+        - Um método
+        - Uma explicação ou dica
+        - Um cubo ou puzzle novo
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descreva
+      description: O que é, para quem serve e, se tiver, os links de onde aprender (vídeos, sites).
+    validations:
+      required: true

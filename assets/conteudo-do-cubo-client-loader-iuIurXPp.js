@@ -1,0 +1,1 @@
+import{t as e}from"./dados-ou-404-DqrJVsdf.js";function t({serverLoader:t}){return e(t)}export{t as clientLoader};

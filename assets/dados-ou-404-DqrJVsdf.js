@@ -1,0 +1,1 @@
+import{u as e,v as t}from"./utils-QtLids5q.js";async function n(n){try{return await n()}catch(n){throw t(n)?n:e(null,{status:404})}}export{n as t};

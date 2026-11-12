@@ -1,0 +1,45 @@
+name: Erro no site
+description: Um botão que não funciona, algo que não aparece, a impressão que sai errada.
+title: "[Erro] "
+labels: ["erro-no-site"]
+body:
+  - type: input
+    id: endereco
+    attributes:
+      label: Endereço da página
+      description: Copie da barra do navegador.
+      placeholder: https://cubingcards.com.br/3x3/pll/t
+    validations:
+      required: true
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu
+      description: E o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como repetir
+      placeholder: |
+        1. Abri a página...
+        2. Cliquei em...
+  - type: dropdown
+    id: aparelho
+    attributes:
+      label: Aparelho
+      options:
+        - Computador
+        - Celular
+        - Tablet
+  - type: input
+    id: navegador
+    attributes:
+      label: Navegador
+      placeholder: Chrome, Safari, Firefox, Edge...
+  - type: textarea
+    id: print
+    attributes:
+      label: Print
+      description: Se puder, arraste uma imagem da tela para cá.

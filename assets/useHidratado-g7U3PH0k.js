@@ -1,0 +1,1 @@
+import{V as e,W as t}from"./utils-QtLids5q.js";var n=t(e(),1),r=()=>()=>{};function i(){return(0,n.useSyncExternalStore)(r,o,a)}function a(){return!1}function o(){return!0}export{i as t};

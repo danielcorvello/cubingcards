@@ -1,0 +1,1 @@
+var e=`imagens`;function t(t){return`/${e}/casos${t}.svg`}function n(t){return`/${e}/cubos/${t}.svg`}export{n,t};
