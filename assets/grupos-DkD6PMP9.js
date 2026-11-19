@@ -1,0 +1,1 @@
+var e=[`F2L`,`F2L Avançado`,`F2L outros slots`,`OLL`,`PLL`],t=[`COLL`,`OLLCP`,`ZBLL`];export{e as n,t};
