@@ -1,0 +1,1 @@
+var e=`Lv Uv`;function t(t){return t===`megaminx`?e:t.includes(`x`)?`z2`:``}export{t as n,e as t};

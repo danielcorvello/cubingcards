@@ -1,0 +1,1 @@
+import{Z as e,nt as t}from"./ContextoDaPessoa-B5Skz9LW.js";import{c as n}from"./opcoes-DtjC8_yg.js";var r=t({triggers:e(n).catch(`nenhuma`)});function i(e){return r.parse(typeof e==`object`&&e?e:{})}export{i as t};

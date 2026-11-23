@@ -1,0 +1,6 @@
+# Só os formulários: cada tipo de issue tem os campos que a automação lê depois.
+blank_issues_enabled: false
+contact_links:
+  - name: Sobre o CubingCards
+    url: https://cubingcards.com.br/sobre
+    about: Quem fez, as fontes das fórmulas e como apoiar.

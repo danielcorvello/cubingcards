@@ -1,0 +1,48 @@
+name: Sugerir fórmula
+description: Uma fórmula melhor, mais rápida ou mais fácil de lembrar para um caso.
+title: "[Sugestão de fórmula] "
+labels: ["sugerir-formula"]
+body:
+  - type: input
+    id: endereco
+    attributes:
+      label: Endereço da página
+      description: Copie da barra do navegador.
+      placeholder: https://cubingcards.com.br/3x3/pll/t
+    validations:
+      required: true
+  - type: dropdown
+    id: cubo
+    attributes:
+      label: Cubo
+      options:
+        - 3x3
+        - 2x2
+        - 4x4
+        - 5x5
+        - Megaminx
+        - Pyraminx
+    validations:
+      required: true
+  - type: input
+    id: formula
+    attributes:
+      label: Fórmula sugerida
+      placeholder: R U R' U R U2 R'
+    validations:
+      required: true
+  - type: dropdown
+    id: angulo
+    attributes:
+      label: Ângulo (de onde começa)
+      description: Se você gira a face de cima antes de começar.
+      options:
+        - Como na imagem do site
+        - U antes
+        - U' antes
+        - U2 antes
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Por que é melhor
+      description: Mais rápida, mais fácil de dedilhar, mais fácil de lembrar... Se tiver fonte (vídeo, site), cole o link.

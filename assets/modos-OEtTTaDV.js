@@ -1,0 +1,1 @@
+var e=[`resolucao`,`cronometro`,`reconhecimento`,`pll2`,`cruz`,`notacao`],t={resolucao:`treino/resolucao`,cronometro:`treino`,reconhecimento:`treino/reconhecimento`,pll2:`treino/pll-2-lados`,cruz:`treino/cruz`,notacao:`treino/notacao`};export{e as n,t};

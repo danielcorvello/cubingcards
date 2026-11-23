@@ -1,0 +1,53 @@
+name: Fórmula errada
+description: Uma fórmula que não resolve o caso, ou a imagem do caso não bate com ela.
+title: "[Fórmula errada] "
+labels: ["formula-errada"]
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado! Com o endereço e a fórmula a gente confere no simulador.
+  - type: input
+    id: endereco
+    attributes:
+      label: Endereço da página
+      description: Copie da barra do navegador.
+      placeholder: https://cubingcards.com.br/3x3/pll/t
+    validations:
+      required: true
+  - type: dropdown
+    id: cubo
+    attributes:
+      label: Cubo
+      options:
+        - 3x3
+        - 2x2
+        - 4x4
+        - 5x5
+        - Megaminx
+        - Pyraminx
+    validations:
+      required: true
+  - type: input
+    id: formula
+    attributes:
+      label: Fórmula com problema
+      description: Como está no site.
+      placeholder: R U R' U' R' F R2 U' R' U' R U R' F'
+    validations:
+      required: true
+  - type: dropdown
+    id: problema
+    attributes:
+      label: O que acontece
+      options:
+        - A fórmula não resolve o caso
+        - A imagem do caso está errada
+        - A fórmula está escrita errada (notação)
+        - Outro (explique abaixo)
+    validations:
+      required: true
+  - type: textarea
+    id: detalhes
+    attributes:
+      label: Detalhes
+      description: Como você segurou o cubo (ângulo), o que esperava e o que aconteceu.
